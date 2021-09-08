@@ -74,9 +74,40 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
+/*añadido por Deli*/
 .container img{
     width: 315px;
     height: 260px;
     margin: 4.5px;
 }
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 50px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    
+}
+/*FIN DELI*/
