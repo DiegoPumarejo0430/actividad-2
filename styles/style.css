@@ -48,8 +48,9 @@ body {
 .sidebar {
     grid-area: sidebar;
     font-family: 'Lobster', cursive;
-    font-size: 3rem;
-    background: rgb(223, 215, 110);
+    font-size: 1.4rem;
+    text-align:justify;
+    background: rgb(243, 240, 205);
 }
 
 .footer {
