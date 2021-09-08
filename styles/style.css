@@ -62,7 +62,7 @@ body {
 
     grid-template: 
     "header"    100px
-    "navbar"    50px
+    "navbar"    100px
     "main"      auto
     "sidebar"   auto
     "footer"    100px
@@ -74,12 +74,13 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-/*añadido por Deli*/
+
 .container img{
     width: 315px;
     height: 260px;
     margin: 4.5px;
 }
+/*añadido por Deli*/
 .mainmenubtn {
     background-color: skyblue;
     color: white;
